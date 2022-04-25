@@ -13,7 +13,7 @@ namespace solo_prep_1
             Console.Write("What is your last name? ");
             string last = Console.ReadLine();
 
-            Console.WriteLine($"Your name is {last.ToUpper()}, {first} {last}");
+            Console.WriteLine($"Your name is {last.ToUpper()}, {first.ToLower()} {last}");
         }
     }
 }
